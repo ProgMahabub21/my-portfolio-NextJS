@@ -2,7 +2,10 @@
 module.exports = {
   content: ["./app/**/*.{html,js,tsx}", " ./app/*.{html,js,tsx}","./components/**/*.{html,js,tsx}"],
   theme: {
-    extend: {},
+    fontFamily: {
+      'Kaushan' : ['Kaushan Script', 'cursive'],
+    },
+
   },
   plugins: [],
 }

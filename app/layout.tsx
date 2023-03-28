@@ -1,3 +1,4 @@
+'useClient';
 import './globals.css'
 
 export const metadata = {
@@ -12,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className='bg-gradient-to-r from-green-400 to-teal-500'>{children}</body>
     </html>
   )
 }

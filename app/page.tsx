@@ -12,7 +12,6 @@ const index = () => {
   return (
     <div>
     {myApp()}    
-      <h1>Page</h1>
     </div>
   );
 };
